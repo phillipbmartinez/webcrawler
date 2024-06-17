@@ -2,6 +2,7 @@
   "name": "webcrawler",
   "version": "1.0.0",
   "description": "webcrawler boot dev project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node main.js",
