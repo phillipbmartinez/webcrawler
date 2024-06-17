@@ -4,8 +4,18 @@
   "description": "webcrawler boot dev project",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "Phillip Martinez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
 }
